@@ -1,9 +1,10 @@
 ## Tensorflow Object Detection API Sample For Movie and Webcam
 
-[Tensorflow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/README.md)
+For more details, see [Tensorflow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/README.md)
 
 # Create an environment
 
+``` dos
 ## For Python 3.6
 conda create --name=objectdetectionenv python=3.6
 chcp 65001
@@ -13,6 +14,7 @@ conda create --name=objectdetectionenv python=3.5
 
 ## Activate an environment
 activate objectdetectionenv
+```
 
 # Install dependencies
 
@@ -35,12 +37,11 @@ cd c:\work\models\research
 
 # Protobuf Compilation
 
-> ex)
-> https://repo1.maven.org/maven2/com/google/protobuf/protoc/3.4.0/
-> protoc-3.4.0-windows-x86_64.exe -> c:\tools\bin\protoc.exe
-
 ``` dos
-rem c:\tools\bin\protoc.exe object_detection/protos/*.proto --python_out=.
+## https://repo1.maven.org/maven2/com/google/protobuf/protoc/3.4.0/
+## protoc-3.4.0-windows-x86_64.exe -> c:\tools\bin\protoc.exe
+
+## c:\tools\bin\protoc.exe object_detection/protos/*.proto --python_out=.
 c:\tools\bin\protoc.exe object_detection/protos/anchor_generator.proto --python_out=.
 c:\tools\bin\protoc.exe object_detection/protos/argmax_matcher.proto --python_out=.
 c:\tools\bin\protoc.exe object_detection/protos/bipartite_matcher.proto --python_out=.
@@ -72,6 +73,7 @@ c:\tools\bin\protoc.exe object_detection/protos/train.proto --python_out=.
 
 # Running
 
+``` dos
 cd object_detection
 
 ## For Movie
@@ -79,4 +81,4 @@ python object_detection_for_movie.py
 
 ## For Webcam
 python object_detection_for_webcam.py
-
+```
