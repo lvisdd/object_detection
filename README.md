@@ -6,8 +6,8 @@ For more details, see [Tensorflow Object Detection API](https://github.com/tenso
 
 ``` dos
 ## For Python 3.6
-conda create --name=objectdetectionenv python=3.6
 chcp 65001
+conda create --name=objectdetectionenv python=3.6
 
 ## For Python 3.5
 conda create --name=objectdetectionenv python=3.5
