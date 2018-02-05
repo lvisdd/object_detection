@@ -30,6 +30,7 @@ pip install opencv-python
 # Cloning TensorFlow Models
 
 ``` dos
+mkdir c:\work
 cd c:\work
 git clone https://github.com/tensorflow/models.git
 cd c:\work\models\research
