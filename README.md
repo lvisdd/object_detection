@@ -78,6 +78,7 @@ c:\tools\bin\protoc.exe object_detection/protos/train.proto --python_out=.
 cd object_detection
 
 ## For Movie
+## ./test.mp4 -> [Your Movie Filename]
 python object_detection_for_movie.py
 
 ## For Webcam
