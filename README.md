@@ -2,6 +2,13 @@
 
 For more details, see [Tensorflow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/README.md)
 
+# Dependencies
+
+* Windows 10 64Bit
+* Python 3.5/3.6
+* Tensorflow 1.4/CUDA 8.0/cuDNN v6
+* Tensorflow 1.5/CUDA 9.0/cuDNN v7
+
 # Create an environment
 
 ``` dos
